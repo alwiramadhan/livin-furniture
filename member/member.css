@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    outline: none;
+    border: none;
+}
+
+.dropdown {
+    margin: 0 auto;
+}
+
+nav {
+    height: 60px;
+    background-color: #f4fff8;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 5px 0 0 80px;
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 70px;
+    background-color: #f4fff8;
+
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: #000f08;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a:hover {
+    background: #343434;
+    color: #8baaad;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+body {
+    background-color: #d0ddd7;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.login-form {
+    background-color: #fff;
+    width: 500px;
+    height: 420px;
+}
+
+.login-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5ae9e;
+    padding: 0 70px;
+    padding-bottom: 40px;
+}
+
+.login-img p {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+span {
+    color: #9e2a2b;
+}
+
+.login-form h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.login-form input {
+    border: 1px solid #000f08;
+    border-radius: 25px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.forgot {
+    text-align: right;
+    padding-right: 100px;
+    font-size: 14px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 20px 0;
+    background-color: #a5ae9e;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    color: white;
+}
+
+button:hover {
+    background-color: #d0ddd7;
+    color: black;
+    cursor: pointer;
+}
+
+.daftarsini {
+    text-align: center;
+}
+
+.login-sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-top: 35px;
+}

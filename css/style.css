@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none !important;
+    outline: none;
+    border: none;
+}
+
+
+
+.dropdown {
+    margin: 0 auto;
+}
+
+nav {
+    height: 60px;
+    background-color: #f4fff8;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 5px 0 0 80px;
+    width: 250px;
+    height: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 70px;
+    background-color: #f4fff8;
+
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: #000f08;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul li a:hover {
+    background: #343434;
+    color: #8baaad;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.carousel-caption h5 {
+    color: #1c3738;
+    font-size: 36px;
+}
+
+.carousel-caption p {
+    color: black;
+    font-size: 18px;
+}
+
+.carousel-caption button {
+    background-color: #95aeb1;
+    border: 1px solid #95aeb1;
+    width: 150px;
+    padding: 10px 20px;
+}
+
+.caro-pertama {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 40%;
+    margin-left: 12%;
+    text-align: left;
+}
+
+.caro-kedua {
+    position: absolute;
+    top: 40%;
+}
+
+.caro-ketiga {
+    position: absolute;
+    top: 18%;
+    margin-left: 40%;
+    text-align: right;
+}
+
+
+
+section {
+    margin-top: 30px;
+    padding: 45px 0 45px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.heading h2 {
+    font-size: 24px;
+}
+
+.heading a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #1c3738;
+    border-bottom: 2px solid #1c3738;
+}
+
+.heading a:hover {
+    color: #ffd7ba;
+    border-bottom: 2px solid #ffd7ba;
+}
+
+.popular-content {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 30px;
+}
+
+.box {
+    padding: 10px;
+    background-color: #95aeb1;
+    border-radius: 10px;
+    display: grid;
+    row-gap: 10px;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.box-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f4fff8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.title-price h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title-price span {
+    font-weight: 500;
+}
+
+.box-text .bx {
+    padding: 10px;
+    font-size: 20px;
+    background: #343434;
+    color: #f4fff8;
+    border-radius: 50%;
+}
+
+.box-text .bx:hover {
+    background: #8baaad;
+}
+
+.about {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img img {
+    width: 500px;
+}
+
+.about-img {
+    position: relative;
+
+}
+
+.about-text h2 {
+    font-size: 22px;
+}
+
+.about-text p {
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.features {
+    display: grid;
+    row-gap: 0.8rem;
+}
+
+.features i {
+    display: flex;
+    align-items: center;
+    font-size: 18ps;
+    color: #1c3738;
+}
+
+.features span {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.newsletter {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/img/livingroom2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter h2 {
+    color: #343434;
+}
+
+.news-box {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.news-box input {
+    width: 260px;
+    height: 44px;
+    border: none;
+    outline: none;
+    background: #f4fff8;
+    padding: 10px;
+}
+
+.news-box .btn {
+    height: 44px;
+    padding: 11px;
+    background-color: #95aeb1;
+    border-radius: 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1rem;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer-box a {
+    color: #1c3738;
+    margin-bottom: 0.5rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.social .bx {
+    padding: 8px;
+    background-color: #343434;
+    font-size: 20px;
+    border-radius: 0.5rem;
+    color: #f4fff8;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px 0 10px;
+    background-color: #343434;
+    color: #f4fff8;
+}
